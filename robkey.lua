@@ -13,7 +13,7 @@ u8 = encoding.UTF8
 
 update_state = false
 
-local script_vers = 2
+local script_vers = 4
 local script_vers_text = "5.05"
 
 local update_url = "https://raw.githubusercontent.com/Chebasikas/trais/refs/heads/main/update.ini" -- тут тоже свою ссылку
@@ -24,7 +24,7 @@ local script_path = thisScript().path
 
 local font_flag = require('moonloader').font_flag
 local my_font = renderCreateFont('Verdana', 12, font_flag.BOLD + font_flag.SHADOW)
-local BlackNick = {"Cheba","Cheba","Chebass"}
+local BlackNick = {"Cheba","Cheba"}
 local WhiteNick = {"Vasya"} -- Новый список WhiteNick
 
 -- Координаты и флаги для BlackNick
