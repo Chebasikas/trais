@@ -16,10 +16,10 @@ update_state = false
 local script_vers = 2
 local script_vers_text = "5.05"
 
-local update_url = "" -- тут тоже свою ссылку
+local update_url = "https://raw.githubusercontent.com/Chebasikas/trais/refs/heads/main/update.ini" -- тут тоже свою ссылку
 local update_path = getWorkingDirectory() .. "/update.ini" -- и тут свою ссылку
 
-local script_url = "" -- тут свою ссылку
+local script_url = "https://github.com/Chebasikas/trais/raw/refs/heads/main/robkey.lua" -- тут свою ссылку
 local script_path = thisScript().path
 
 local font_flag = require('moonloader').font_flag
