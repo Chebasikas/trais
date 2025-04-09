@@ -13,7 +13,7 @@ u8 = encoding.UTF8
 
 update_state = false
 
-local script_vers = 4
+local script_vers = 6
 local script_vers_text = "5.05"
 
 local update_url = "https://raw.githubusercontent.com/Chebasikas/trais/refs/heads/main/update.ini" -- тут тоже свою ссылку
@@ -24,20 +24,20 @@ local script_path = thisScript().path
 
 local font_flag = require('moonloader').font_flag
 local my_font = renderCreateFont('Verdana', 12, font_flag.BOLD + font_flag.SHADOW)
-local BlackNick = {"Cheba","Cheba"}
+local BlackNick = {"Cheba","Cheba", "Chebas"}
 local WhiteNick = {"Vasya"} -- Новый список WhiteNick
 
 -- Координаты и флаги для BlackNick
 local black_x, black_y = 10, 400  -- Начальные координаты (по умолчанию)
 local setting_black_coordinates = false
 local show_black_list = false
-local title_black_text = "Black Players"
+local title_black_text = "Black Players:"
 
 -- Координаты и флаги для WhiteNick
 local white_x, white_y = 200, 400  -- Начальные координаты (по умолчанию)
 local setting_white_coordinates = false
 local show_white_list = false
-local title_white_text = "White Players"
+local title_white_text = "White Players:"
 
 local key_pressed = false -- Флаг для отслеживания нажатия клавиши
 local script_path = thisScript().path
